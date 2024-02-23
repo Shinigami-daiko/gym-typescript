@@ -1,12 +1,12 @@
-import Navbar from "@/scenes/navbar";
-import Home from "@/scenes/home";
-import Benefits from "@/scenes/benefits";
-import OurClasses from "@/scenes/ourClasses";
-import ContactUs from "@/scenes/contactUs";
-import Footer from "@/scenes/footer";
+import Navbar from "../src/scenes/navbar/";
+import Home from "../src/scenes/home";
+import Benefits from "../src/scenes/benefits";
+import OurClasses from "../src/scenes/ourClasses";
+import ContactUs from "../src/scenes/contactUs";
+import Footer from "../src/scenes/footer";
 import { useEffect, useState } from "react";
-import { SelectedPage } from "@/shared/types";
-
+import { SelectedPage } from "../src/shared/types";
+Navbar
 
 
 function App() {

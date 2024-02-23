@@ -3,7 +3,7 @@ type Props = {
     children: React.ReactNode;
 }
 
-const HText = ({children}: Props) => {
+const Text = ({children}: Props) => {
   return (
     <h1 className="basis-3/6 font-montserrat text-3xl font-bold">
         {children}
@@ -11,4 +11,4 @@ const HText = ({children}: Props) => {
   )
 }
 
-export default HText
+export default Text

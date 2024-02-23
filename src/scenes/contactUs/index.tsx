@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 import { SelectedPage } from "../../shared/types"
 import {useForm} from "react-hook-form";
 import ContactUsPageGraphic from "@/assets/COntactUsPageGraphic.png";
-import HText from "../../shared/Htext";
+import HText from "../../shared/Text";
 
 type Props = {
     setSelectedPage: (value: SelectedPage)=>void;
@@ -14,7 +14,7 @@ const inputStyles = ` mb-5 w-full rounded-lg bg-primary-300 px-5 py-3 placeholde
 
 const {register, trigger, formState:{errors} } = useForm();
 
-    const onSubmit = async (e: any)=>{
+    const onSubmit = async (e:any)=>{
     const isValid = await trigger();
     if(!isValid){
         e.preventDefault();
